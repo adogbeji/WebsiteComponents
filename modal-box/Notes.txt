@@ -1,0 +1,14 @@
+Using animations is totally OPTIONAL. To do it, set animation effect of the dialog via the data-animation attribute. The value of this attribute which has to be added to the .modal class can be any of the following values:
+
+- slideInOutDown
+- slideInOutTop
+- slideInOutLeft
+- slideInOutRight
+- zoomInOut
+- rotateInOutDown
+- mixInAnimations
+
+
+Example:-
+
+data-animation="zoomInOut"
