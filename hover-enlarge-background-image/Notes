@@ -1,0 +1,4 @@
+Two scenarios to use this effect:-
+
+1) BACKGROUND IMAGE: If you only have a background image, scale it in CSS with the :hover Pseudo-class. No need for JavaScript
+2) TEXT CONTENT: If you have text/content in the middle, scale it using JavaScript instead rather than the CSS :hover Pseudo-class. JavaScript Functions MUST be triggered on the parent element only!!

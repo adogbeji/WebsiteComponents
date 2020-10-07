@@ -24,7 +24,7 @@ body {
   background-color: #420000;
 }
 
-.img-container:hover {
+.img-container:hover {  /* No need for this if there's text in the middle */
   transform: scale(1.3);
 }
 
