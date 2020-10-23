@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #01c5c4;  /* Creates Page background colour */
+}
+
+/* NOTE: Styling is purely for aestetic purposes only */
+
+.form-container {
+  width: 600px;
+  position: relative;
+  left: 350px;
+  top: 200px;
+  text-align: center;  /* Centres status message underneath form */
+  padding-bottom: 130px;
+}
+
+.text-colour {
+  color: #000000;
+}
+
+#status {
+  font-size: 1.1rem;
+  padding: 3px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+#status.success {
+  color: #000000;
+  background-color: #00FF00;
+}
+
+#status.error {
+  color: #EEEEEE;
+  background-color: #FF0000;
+}
