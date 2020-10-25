@@ -13,7 +13,6 @@ body {
   position: relative;
   left: 350px;
   top: 200px;
-  text-align: center;  /* Centres status message underneath form */
   padding-bottom: 130px;
 }
 
@@ -24,6 +23,7 @@ body {
 #status {
   font-size: 1.1rem;
   padding: 3px;
+  text-align: center;  /* Centers status message text */
   margin-top: 10px;
   border-radius: 5px;
 }

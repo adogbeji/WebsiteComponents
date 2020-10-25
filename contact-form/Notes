@@ -2,6 +2,14 @@ Important Points:-
 
 1) The 'name' attribute is what will appear in the submitted email!
 2) Inner text of the form status message will be changed by JavaScript
+3) Use Formspree to submit client emails
+4) Put Formspree API endpoint in Form's 'action' attribute
+5) To prevent being re-directed to the Formspree default 'Thank You' Page, use JavaScript to prevent the Form's default behaviour
+6) In your Formspree account, click on the 'AJAX' tab and copy JavaScript code between opening and closing <script></script> tags
+7) Paste code into your 'index.js' file
+8) Give the contact form an ID to link it with JavaScript code
+9) Comment out button JavaScript code & remove 'button.style' from success() function if you don't want any extra styling
+10) Give the status message an ID to link it with JavaScript code
 
 
 NB: Continue watching tutorial from 19:56
