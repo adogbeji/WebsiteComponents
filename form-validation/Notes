@@ -1,0 +1,7 @@
+Important Points:-
+
+1) Place a Div above the form with a unique ID - error message will go here
+2) Give form tag, input fields and error message Div a unique ID to target them with JavaScript
+3) We need to catch errors BEFORE form submission
+4) Solution: use JavaScript preventDefault() method to prevent form submission
+5) You can make an input field required by adding the 'required' attribute to it
