@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #F4ABC4;
+}
+
+/* NOTE: Styles below are for aestetic purposes only! */
+
+.form-container {
+  width: 400px;
+  position: relative;
+  top: 190px;
+  left: 450px;
+}
+
+.text-colour {
+  color: #000000;
+}
+
+.button-colour {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.button-colour:hover {
+  color: #FFFFFF;
+}

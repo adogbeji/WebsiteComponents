@@ -4,10 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Contact Form</title>
-
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/ec77412d4b.js" crossorigin="anonymous"></script>
+    <title>Bootstrap Practice</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -17,25 +14,22 @@
   <body>
 
     <div class="form-container">
-      <form action="" method="post" id="contact-form"> <!-- Put Formspree API Endpoint in 'action' attribute -->
+      <div id="error">  <!-- This contains error message -->
+
+      </div>
+      <form id="form" action="" method="post">
   <div class="form-group">
     <label for="clientName"><span class="text-colour font-weight-bold">Name:</span></label>
     <input type="text" id="clientName" name="name" class="form-control">
   </div>
   <div class="form-group">
-    <label for="clientEmail"><span class="text-colour font-weight-bold">Email:</span></label>
-    <input type="email" id="clientEmail" name="email" class="form-control">
+    <label for="clientPassword"><span class="text-colour font-weight-bold">Password:</span></label>
+    <input type="password" id="clientPassword" name="password" class="form-control">
   </div>
-  <div class="form-group">
-    <label for="clientMessage"><span class="text-colour font-weight-bold">Message:</span></label>
-    <textarea name="message" id="clientMessage" class="form-control" rows="15" autofocus></textarea>
-  </div>
-  <button type="submit" class="btn btn-dark btn-block">Submit</button>
-  <div class="font-weight-bold" id="status">
-    <!-- Form Status Message Here... -->
-  </div>
+  <button type="submit" class="btn button-colour btn-block">Submit</button>
 </form>
     </div>
+
 
     <!-- jQuery, Popper.js, and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

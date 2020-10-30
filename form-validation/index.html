@@ -4,7 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Bootstrap Practice</title>
+    <title>Form Validation</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ec77412d4b.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -14,17 +17,50 @@
   <body>
 
     <div class="form-container">
-      <div id="error">  <!-- This contains error message -->
-
-      </div>
-      <form id="form" action="" method="post">
-  <div class="form-group">
-    <label for="clientName"><span class="text-colour font-weight-bold">Name:</span></label>
-    <input type="text" id="clientName" name="name" class="form-control">
+      <form id="form" action="" method="POST">
+  <div class="form-group success">
+    <label for="clientUsername"><span class="text-colour font-weight-bold">Username:</span></label>
+    <input type="text" id="clientUsername" name="username" class="form-control" autocomplete="off">
+    <span class="img-container">
+      <i class="fas fa-check-circle"></i>
+    </span>
+    <span class="img-container">
+      <i class="fas fa-exclamation-circle"></i>
+    </span>
+    <small class="error-message">Error Message</small>
+  </div>
+  <div class="form-group error">
+    <label for="clientEmail"><span class="text-colour font-weight-bold">Email:</span></label>
+    <input type="email" id="clientEmail" name="email" class="form-control" autocomplete="off">
+    <span class="img-container">
+      <i class="fas fa-check-circle"></i>
+    </span>
+    <span class="img-container">
+      <i class="fas fa-exclamation-circle"></i>
+    </span>
+    <small class="error-message">Error Message</small>
   </div>
   <div class="form-group">
-    <label for="clientPassword"><span class="text-colour font-weight-bold">Password:</span></label>
-    <input type="password" id="clientPassword" name="password" class="form-control">
+    <label for="clientPassword1"><span class="text-colour font-weight-bold">Password:</span></label>
+    <input type="password" id="clientPassword1" name="password1" class="form-control">
+    <span class="img-container">
+      <i class="fas fa-check-circle"></i>
+    </span>
+    <span class="img-container">
+      <i class="fas fa-exclamation-circle"></i>
+    </span>
+    <small class="error-message">Error Message</small>
+  </div>
+  <div class="form-group">
+    <label for="clientPassword2"><span class="text-colour font-weight-bold">Confirm Password:</span></label>
+    <input type="password" id="clientPassword2" name="password2" class="form-control">
+    <span class="img-container">
+      <i class="fas fa-check-circle"></i>
+    </span>
+    <span class="img-container">
+      <i class="fas fa-exclamation-circle"></i>
+    </span>
+    <small class="error-message">Error Message</small>
   </div>
   <button type="submit" class="btn button-colour btn-block">Submit</button>
 </form>

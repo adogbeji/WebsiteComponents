@@ -1,7 +1,13 @@
 Important Points:-
 
-1) Place a Div above the form with a unique ID - error message will go here
-2) Give form tag, input fields and error message Div a unique ID to target them with JavaScript
-3) We need to catch errors BEFORE form submission
-4) Solution: use JavaScript preventDefault() method to prevent form submission
-5) You can make an input field required by adding the 'required' attribute to it
+NB: Icons are from Font Awesome
+
+1) Give the Form a unique ID to target it with JavaScript
+2) Each Input should have the following tags: label, input, 2X i & small
+3) Check icon is shown when input is successful
+4) Exclamation icon is shown when there's an error
+5) <small></small> tag will display error message to user
+6) Error message will be hidden by default (display: none) and only displayed upon error
+7) Icons are hidden by default and only shown upon success/error validation
+8) Use JavaScript to dynamically add one of two custom classes depending on whether its success or failure
+9) Make corresponding icon visible upon success or failure

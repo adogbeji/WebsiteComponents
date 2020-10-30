@@ -6,24 +6,63 @@ body {
   background-color: #F4ABC4;
 }
 
-/* NOTE: Styles below are for aestetic purposes only! */
+/* NOTE: Styling is for aestetic purposes only */
 
 .form-container {
-  width: 400px;
+  width: 600px;
   position: relative;
-  top: 190px;
-  left: 450px;
+  top: 120px;
+  left: 320px;
+}
+
+.form-group {
+  position: relative;
 }
 
 .text-colour {
   color: #000000;
 }
 
+.form-group.success input {  /* The 'success' class is added by JavaScript */
+  border: 1px solid #00FF00;
+}
+
+.form-group.success .img-container .fa-check-circle {  /* Make icon visible on success */
+  color: #00FF00;
+  visibility: visible;
+}
+
+.form-group.error input {  /* The 'success' class is added by JavaScript */
+  border: 1px solid #FF0000;
+}
+
+.form-group.error .img-container .fa-exclamation-circle {  /* Make icon visible on success */
+  color: #FF0000;
+  visibility: visible;
+}
+
+.form-control {
+  padding-bottom: 20px;  /* Creates space for error message */
+}
+
+.img-container {
+  font-size: 1.1rem;
+  color: #0000FF;
+  position: absolute;
+  top: 38px;
+  left: 95%;
+  visibility: hidden;  /* Hides icons by default, but still part of DOM */
+}
+
+.error-message {
+  display: none;  /* Hides error message by default & removes from DOM */
+}
+
 .button-colour {
-  color: #FFFFFF;
-  background-color: #000000;
+  color: #EEEEEE;
+  background-color: #111111;
 }
 
 .button-colour:hover {
-  color: #FFFFFF;
+  color: #EEEEEE;
 }
