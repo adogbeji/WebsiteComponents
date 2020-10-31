@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.top-container {
+  width: 100vw;
+  background-color: #1F6F8B;
+}
+
+/* Overlay (background) */
+
+.overlay {  /* Height & width depends on how you want to reveal the overlay */
+  transition: 0.5s;  /* 0.5 Transition effect to slide in or slide down the overlay */
+  height: 100%;
+  width: 0;
+  position: fixed;  /* Keeps overlay in place */
+  top: 0;
+  left: 0;
+  z-index: 1;  /* Places overlay on top */
+  overflow-x: hidden;  /* Disable horizontal scroll */
+  background-color: rgb(0, 0, 0);  /* Fallback colour */
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Position the content inside the overlay */
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;  /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+.overlay a {
+  transition: 0.3s;
+  padding: 8px;
+  font-size: 2.25rem;
+  color: #818181;
+  display: block;
+  text-decoration: none;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #F1F1F1;
+}
+
+/* Position the close button (top right corner) */
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 3.75rem;
+}
+
+/* Change font-size of the links and position the close button, so they don't overlap */
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .overlay a {
+    font-size: 1.25rem;
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0.65% 5%;
+  background-color: #1F6F8B;
+}
+
+.navbar-brand {
+  width: 70px;
+  /* background-color: grey; */
+}
+
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+  width: 70px;
+}
+
+.hamburger-icon {
+  font-size: 2rem;
+  color: #050505;
+}
+
+.hamburger-icon:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,7 @@
+To side overlay from the top:
+
+NB: Code shows how to use overlay navigation with a Navbar, just like in a REAL project!!
+
+1) Default '.overlay' height must be 0
+2) Set width: 100%
+3) Set overflow-y: hidden, EXCEPT on small-screen
