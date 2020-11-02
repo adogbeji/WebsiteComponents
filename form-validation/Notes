@@ -11,3 +11,4 @@ NB: Icons are from Font Awesome
 7) Icons are hidden by default and only shown upon success/error validation
 8) Use JavaScript to dynamically add one of two custom classes depending on whether its success or failure
 9) Make corresponding icon visible upon success or failure
+10) It's best for icon colour to be the SAME as input tag border colour

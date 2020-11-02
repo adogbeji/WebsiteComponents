@@ -55,6 +55,7 @@ body {
 }
 
 .error-message {
+  color: #FF0000;
   display: none;  /* Hides error message by default & removes from DOM */
 }
 
