@@ -10,6 +10,3 @@ Important Points:-
 8) Give the contact form an ID to link it with JavaScript code
 9) Comment out button JavaScript code & remove 'button.style' from success() function if you don't want any extra styling
 10) Give the status message an ID to link it with JavaScript code
-
-
-NB: Continue watching tutorial from 19:56
