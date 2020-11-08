@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Modal (background) */
+
+.modal {
+  transition: 0.45s linear;
+  visibility: hidden;  /* Hidden by default */
+  opacity: 0;
+  position: fixed;  /* Stay in place */
+  top: 0;
+  left: 0;
+  z-index: 1;  /* Sit on top */
+  width: 100%;  /* Full width */
+  height: 100%;  /* Full height */
+  overflow: auto;
+  background-color: rgb(0, 0, 0);  /* Fallback colour */
+  background-color: rgba(0, 0, 0, 0.6);  /* Colour with opacity */
+}
+
+/* Modal Content */
+
+.modal-content {
+  width: 80%;  /* Width can vary depending on screen size */
+  margin: 15% auto;  /* IMPORTANT: 15% from the top and centered */
+  padding: 0;
+  position: relative;
+  border: 1px solid #888888;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  /* Applying 2 shadows */
+  background-color: #FEFEFE;
+}
+
+/* Modal Header */
+
+.modal-header {
+  color: #FFFFFF;
+  padding: 2px 16px;
+  background-color: #5CB85C;
+}
+
+/* Modal Body */
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+/* Modal Footer */
+
+.modal-footer {
+  color: #FFFFFF;
+  padding: 2px 16px;
+  background-color: #5CB85C;
+}
+
+/* Modal Close Button */
+
+.close {
+  color: #AAAAAA;
+  float: right;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
