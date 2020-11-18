@@ -32,7 +32,7 @@ body {
   visibility: visible;
 }
 
-.form-group.error input {  /* The 'success' class is added by JavaScript */
+.form-group.error input {  /* The 'error' class is added by JavaScript */
   border: 1px solid #FF0000;
 }
 
