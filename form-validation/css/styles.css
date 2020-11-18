@@ -41,10 +41,6 @@ body {
   visibility: visible;
 }
 
-.form-control {
-  padding-bottom: 20px;  /* Creates space for error message */
-}
-
 .img-container {
   font-size: 1.1rem;
   color: #0000FF;
