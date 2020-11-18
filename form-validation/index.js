@@ -103,13 +103,3 @@ function setSuccessFor(input) {
 function validateEmail(email) {
   return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
 }
-
-
-// Check below:-
-
-// Submits form if there are no errors
-function formSubmit() {
-  if (nameValue.parentElement.className === 'form-group' && emailValue.parentElement.className === 'form-group' && firstPasswordValue.parentElement.className === 'form-group' && secondPasswordValue.parentElement.className === 'form-group') {
-    form.submit();
-  }
-}
