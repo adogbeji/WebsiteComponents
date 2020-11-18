@@ -36,7 +36,7 @@ body {
   border: 1px solid #FF0000;
 }
 
-.form-group.error .img-container .fa-exclamation-circle {  /* Make icon visible on success */
+.form-group.error .img-container .fa-exclamation-circle {  /* Make icon visible on error */
   color: #FF0000;
   visibility: visible;
 }
