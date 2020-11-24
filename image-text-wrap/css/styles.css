@@ -1,0 +1,61 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  padding: 50px;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+}
+
+.image1 {
+  width: 500px;
+  height: 500px;
+  float: left;
+  border-radius: 50%;
+  margin: 20px;
+  shape-outside: circle();
+}
+
+.image2 {
+  width: 300px;
+  height: 300px;
+  float: right;
+  border-radius: 50%;
+  margin: 20px;
+  shape-outside: circle();
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* Fills parent element & preserves aspect ratio */
+}
+
+h2 {
+  font-size: 2rem;
+  color: #420000;
+  margin-bottom: 20px;
+}
+
+section p {
+  color: #000000;
+  line-height: 1.6rem;  /* Use length property if no font-size specified */
+  text-align: justify;  /* Gives all lines an equal width */
+}
