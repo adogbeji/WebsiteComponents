@@ -1,4 +1,10 @@
 Important points:
 
-1) Form submission will be done via Google Sheets
-2) Client will receive a confirmation email after sending message
+1) This is a slightly different way to send emails via Formspree
+2) Change the Form's action attribute to https://formspree.io/you@email.com --> replace [you@email.com] with your own/client's email
+3) Add a hidden input field with name attribute set to: _subject. In the value attribute, you can now set the subject of the email
+4) Add a hidden input field with the name attribute set to: _next. In the value attribute, you can now set a URL to redirect the user
+   after form submission
+
+5) In the email input field, set the name attribute to: _replyto. This will allow you directly respond to the person who sent the message
+   through your site!
