@@ -1,3 +1,6 @@
 Important Points:-
 
 1) Emails are being sent through SmartForms
+2) Set a URL to redirect user after form submission
+3) Lastly, set the form's action attribute to the generated endpoint
+4) Form should now be ready to receive submissions!
