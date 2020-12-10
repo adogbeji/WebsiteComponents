@@ -1,6 +1,11 @@
 Important Points:-
 
 1) Emails are being sent through SmartForms
-2) Set a URL to redirect user after form submission
+2) Your OWN account email address is the default recipient - you must remove it first and set a new one!
+3) New email addresses must be confirmed before they can receive submissions
+4) If you're on the free plan, don't bother with the redirect URL ('Back URL')
+3) The default response page can only be skipped on a paid plan!
 3) Lastly, set the form's action attribute to the generated endpoint
 4) Form should now be ready to receive submissions!
+
+NB: If the form has attribute name='email', you can directly reply to the person who sent the message!
