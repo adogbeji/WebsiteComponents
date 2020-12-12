@@ -1,0 +1,8 @@
+Important Points:-
+
+1) Emails are being sent through FormSubmit
+2) It does NOT work on HTML pages, only on a real Web Server - spin up localhost!
+3) Confirmation email is sent upon first submission +
+4) Confirmation email contains email address alias to shield email address from source code
+5) Activation link will take you to the actual form
+6) Only do this for clients AFTER deployment and not on localhost!
