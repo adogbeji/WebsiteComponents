@@ -2,7 +2,13 @@ Important Points:-
 
 1) Emails are being sent through FormSubmit
 2) It does NOT work on HTML pages, only on a real Web Server - spin up localhost!
-3) Confirmation email is sent upon first submission +
+3) Confirmation email is sent upon first submission
 4) Confirmation email contains email address alias to shield email address from source code
 5) Activation link will take you to the actual form
 6) Only do this for clients AFTER deployment and not on localhost!
+7) Use the _next name attribute on a hidden input field to set a custom redirect URL
+8) Use the _subject name attribute on a hidden input field to set an Email Subject
+9) Use the _autoresponse name attribute on a hidden input field to send clients a copy of their message
+10) Use the _cc name attribute on a hidden input field to set another recipient(s) for each form submission
+11) Use the _captcha name attribute on a hidden input field with the value attribute set to 'false'.
+    This disables the built-in reCAPTCHA (not recommended)
