@@ -12,3 +12,6 @@ Important Points:-
 10) Use the _cc name attribute on a hidden input field to set another recipient(s) for each form submission
 11) Use the _captcha name attribute on a hidden input field with the value attribute set to 'false'.
     This disables the built-in reCAPTCHA (not recommended)
+
+12) Input field with name attribute set to 'email' allows you to directly reply to the person
+    who sent you the message
