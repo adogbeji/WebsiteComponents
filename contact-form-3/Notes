@@ -8,10 +8,17 @@ Important Points:-
 6) Only do this for clients AFTER deployment and not on localhost!
 7) Use the _next name attribute on a hidden input field to set a custom redirect URL
 8) Use the _subject name attribute on a hidden input field to set an Email Subject
-9) Use the _autoresponse name attribute on a hidden input field to send clients a copy of their message
+9) Use the _autoresponse name attribute on a hidden input field to send clients a copy of their message.
+   Clients will be able to directly reply to the email the form was submitted to!
 10) Use the _cc name attribute on a hidden input field to set another recipient(s) for each form submission
 11) Use the _captcha name attribute on a hidden input field with the value attribute set to 'false'.
     This disables the built-in reCAPTCHA (not recommended)
 
-12) Input field with name attribute set to 'email' allows you to directly reply to the person
-    who sent you the message
+12) Use the _template name attribute on a hidden input field to choose from the 3 different email templates.
+    The default one ('basic') looks the tidiest
+
+13) Input field with name attribute set to 'email' allows you to directly reply to the person
+    who sent you the message!
+
+
+NB: The _cc name attribute isn't working at the moment - don't use it!
