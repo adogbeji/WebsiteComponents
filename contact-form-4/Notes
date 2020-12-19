@@ -1,0 +1,8 @@
+Important Points:-
+
+1) Emails are being sent through Getform
+2) Create a form and set action attribute to generated endpoint
+3) The form must have a name attribute on every input tag
+2) You must upgrade to a paid plan to set a custom redirect URL
+4) All messages are sent directly to your Getform account - no need for client email address!
+5) To send notifications to people, open the Form --> Settings --> Notifications --> E-mail notification (set recipient emails)
