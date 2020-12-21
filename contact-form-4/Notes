@@ -6,3 +6,5 @@ Important Points:-
 2) You must upgrade to a paid plan to set a custom redirect URL
 4) All messages are sent directly to your Getform account - no need for client email address!
 5) To send notifications to people, open the Form --> Settings --> Notifications --> E-mail notification (set recipient emails)
+6) On the free plan, you can only have ONE email recipient per form
+6) You can automatically respond to the client by replying to the email received
