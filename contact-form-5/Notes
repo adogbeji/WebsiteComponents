@@ -1,0 +1,9 @@
+Important Points:-
+
+1) Emails are being sent through Basin
+2) Create your form and click on the 'Setup' tab to get your URL endpoint
+3) Paste the URL endpoint into your form's action attribute
+4) Go to the 'Emails' tab to set recipient emails (+ cc), custom from name and email subject line
+5) On the free plan, you can set multiple recipients but can only create ONE form
+5) You must upgrade to a Pro account to set a custom Redirect URL
+6) You can respond to the client by simply replying to the email received!
