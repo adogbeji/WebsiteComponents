@@ -1,0 +1,37 @@
+html {
+  min-height: 100%;  /* Ensures HTML page is at least as high as browser viewport */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;  /* Ensures page body is at least as high as browser viewport */
+}
+
+.top-container {
+  width: 100vw;
+  height: 20vh;
+  background-color: #222831;
+}
+
+/* Scroll Button */
+
+.scroll-top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+  z-index: 99; /* Prevents overlap */
+  border: none;  /* Removes borders */
+  outline: none;  /* Removes outline */
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.scroll-top:hover {
+  color: #00FF00;
+}

@@ -1,0 +1,10 @@
+important Points:-
+
+1) Scroll Button can be placed anywhere on your HTML, preferrably in Navigation Bar
+2) The scroll button should be given equal with & height - but don't go below 40px!
+3) JavaScript can be implemented in 3 different ways
+4) In the first technique, we use the 'function' keyword rather than ES6 arrow functions (=>) to ensure Internet Explorer compatability
+5) The second technique won't work with Internet Explorer! It's mainly limited to browsers like Chrome & FireFox
+6) The third technique gives the BEST results in terms of cross-browser compatability & animation!!
+
+NB: Using jQuery (Technique #3) ensures maximum cross-browser compatability and is the recommended strategy!
