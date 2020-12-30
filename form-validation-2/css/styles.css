@@ -1,0 +1,58 @@
+html {
+  min-height: 100%;  /* Ensures HTML page is at least as browser viewport */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;  /* Ensures page body is at least as browser viewport */
+}
+
+.top-container {
+  width: 100vw;
+  height: 20vh;
+  background-color: #0E49B5;
+}
+
+.middle-container {
+  width: 100vw;
+  background-color: #FFFAA4;
+}
+
+.text-container {
+  width: 90%;
+  margin: auto;
+  padding-top: 160px;
+  text-align: center;
+  /* background-color: #FF0000; */
+}
+
+.text {
+  font-family: Geneva, Tahoma, Verdanna, sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #000000;
+}
+
+.form-container {
+  width: 85%;
+  margin: auto;
+  padding-bottom: 80px;
+  /* background-color: #000000; */
+}
+
+.text-colour {
+  color: #000000;
+}
+
+.button-colour {
+  color: #FFFFFF;
+  width: 100%;  /* Replaces Bootstrap 4 'btn-block' class */
+  background-color: #000000;
+}
+
+.button-colour:hover {
+  color: #FFFFFF;
+}
