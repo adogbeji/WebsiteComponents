@@ -10,6 +10,7 @@ NB: This is exactly the same as 'form-validation-1', but built with Bootstrap 5!
 6) Error message will be hidden by default (display: none) and only displayed upon error
 7) Icons are hidden by default and only shown upon success/error validation
 8) Use JavaScript to dynamically add one of two custom classes depending on whether it's success or failure
+9) It may be better to use the 'function' keyword rather than ES6 arrow functions (=>) to ensure Internet Explorer compatability
 9) Make corresponding icon visible upon success or failure
 10) Form submission is prevented if validation fails!
 10) It's best for icon colour to be the SAME as input tag border colour
