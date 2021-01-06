@@ -6,7 +6,7 @@ const email = document.getElementById('clientEmail');
 const password_1 = document.getElementById('clientPassword1');
 const password_2 = document.getElementById('clientPassword2');
 
-form.addeventListener('submit', function(e) {  // The 'function' keyword ensures Internet Explorer compatability
+form.addEventListener('submit', function(e) {  // The 'function' keyword ensures Internet Explorer compatability
   checkInputs(e);  // Function that checks form inputs
 });
 
@@ -93,4 +93,21 @@ function setErrorFor(input, message) {
   function removeClass() {
     formGroup.className = 'form-group';
   }
+}
+
+function  setSuccessFor(input) {
+  const formGroup = input.parentElement;  // Div with class '.form-group'
+
+  formGroup.className = 'form-group success';
+  setTimeout(removeClass, 2500);  // Removes success class after 2.5s
+
+  function removeClass() {
+   formGroup.className = 'form-group';
+ }
+}
+
+
+// Special Function to validate email - returns true or false
+function validateEmail(email) {
+  return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
 }
