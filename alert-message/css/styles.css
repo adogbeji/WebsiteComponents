@@ -1,0 +1,57 @@
+html {
+  min-height: 100%;  /* Ensures HTML page is at least as high as browser viewport */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;  /* Ensures page body is at least as high as browser viewport */
+}
+
+.top-container {
+  width: 100vw;
+  height: 20vh;
+  background-color: #0E49B5;
+}
+
+.middle-container {
+  width: 100vw;
+  background-color: #E4E4E4;
+}
+
+.alert-message-box {  /* Control width of alert message by adjusting width property */
+  width: 100%;
+  margin: auto;
+  background-color: grey;
+}
+
+/* ALERT MESSSAGE BOX */
+
+.alert-box {  /* First two lines allow multiple alerts to fade out slowly */
+  opacity: 1;
+  transition: opacity 0.6s;
+  color: #EEEEEE;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #F44336;
+}
+
+/* CLOSE BUTTON */
+
+.closebtn {
+  transition: 0.3;
+  color: #EEEEEE;
+  font-weight: 500;
+  font-size: 1.375rem;
+  line-height: 20px;  /* ? */
+  float: right;
+  cursor: pointer;
+  margin-left: 15px;
+  /* transform: translate(8px, -12px);*/  /* Optional: Places close button on top right corner */
+}
+
+.closebtn:hover {
+  color: #000000;
+}
