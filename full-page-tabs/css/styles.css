@@ -1,0 +1,54 @@
+html {
+  min-height: 100%;  /* Ensures HTML page is at least as high as browser viewport */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;  /* Ensures page body is at least as high as browser viewport */
+}
+
+/* Style tab links */
+
+.tablink {
+  width: 25%;  /* Width is relative to parent element */
+  font-size: 1.0625rem;
+  color: #FFFFFF;
+  padding: 14px 16px;
+  float: left;
+  border: none;  /* Removes border */
+  outline: none;  /* Removes outline */
+  cursor: pointer;
+  background-color: #555555;
+}
+
+.tablink:hover {
+  background-color: #777777;
+}
+
+/* Style the tab content (and add height: 100% for full page content) */
+
+.tabcontent {
+  height: 100%;
+  color: #FFFFFF;
+  display: none;  /* Hides tab content */
+  padding: 100px 20px;
+}
+
+#Home {
+  background-color: #FF0000;
+}
+
+#News {
+  background-color: green;
+}
+
+#Contact {
+  background-color: #0E49B5;
+}
+
+#About {
+  background-color: orange;
+}

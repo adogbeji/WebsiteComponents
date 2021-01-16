@@ -1,0 +1,10 @@
+Important Points:-
+
+1) This contains code to build full-page tabs with CSS & JavaScript
+2) the body and html selectors should be given 100% height to enable tabs occupy full browser window
+2) Create buttons to open specific tab content
+3) All divs with class="tabcontent" are hidden by default (CSS & JavaScript)
+4) When the user clicks a button, it will open up the corresponding tab
+5) Each tab must be given a unique ID which is then passed into the function triggered on button click
+6) Each tab must also be given a background colour which is then passed into the function triggered on button click
+7) ONE tab must be open by default. Give its corresponding button a unique ID (id="defaultOpen"), so that JavaScript can open it
