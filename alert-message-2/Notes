@@ -1,0 +1,15 @@
+Important Points:-
+
+1) This contains code for building a dismissing alert message
+2) If you want users to be able to close the message, add a span tag to the alert
+3) The span tag should contain an onclick attribute with JavaScript code to hide the message after clicking on the cross (x)
+4) Use the HTML "&times;" entity to create the cross (x)
+5) The cross (x) must be be absolutely positioned relative to '.alert-box'
+6) Use CSS padding to control visible size of '.alert-box'
+5) Wrap alert in a parent div to set its visible width via the width CSS property
+6) Create full-width alert message by setting width of parent div to '100%'
+7) With Bootstrap, remove left- and right padding by adding the 'px-0' class to the 'container-fluid' class if using a full-width alert
+8) Alternatively, add a custom class to the 'container-fluid' div and apply the 'padding: 0' CSS rule to remove Bootstrap left- and right padding
+9) Don't use the class name 'alert' because it's a registered Bootstrap class!
+10) If you have multiple alerts, use JavaScript to close them without using the onclick attribute on every span tag
+11) If the alert is at the very top of the page, place it in its very own <header></header>
