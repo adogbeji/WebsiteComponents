@@ -1,39 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  /* Border & Padding now included in Width & Height */
+}
+
 html {
-  min-height: 100%;  /* Ensures HTML page is at least as browser viewport */
+  min-height: 100%;  /* Ensures HTML page is at least as high as browser viewport */
 }
 
 body {
-  margin: 0;
-  padding: 0;
   max-width: 100%;
   overflow-x: hidden;
-  min-height: 100vh;  /* Ensures page body is at least as browser viewport */
+  min-height: 100vh;  /* Ensures page body is at least as high as browser viewport */
+  font-family: Candara, 'Helvetica Nue', Futura, sans-serif;
+  font-weight: 300;
+  color: #000000;
 }
 
 .top-container {
   width: 100vw;
   height: 20vh;
-  background-color: #0E49B5;
+  background-color: #4A47A3;
 }
 
 .middle-container {
   width: 100vw;
-  background-color: #FFFAA4;
+  background-color: #A7C5EB;
 }
 
 .text-container {
   width: 90%;
   margin: auto;
-  padding-top: 160px;
+  padding-top: 135px;
   text-align: center;
   /* background-color: #FF0000; */
 }
 
 .text {
-  font-family: Geneva, Tahoma, Verdanna, sans-serif;
-  font-weight: 300;
-  font-size: 2rem;
-  color: #000000;
+  font-size: 2.3rem;
+  color: #292121;
 }
 
 .form-container {
@@ -44,7 +49,7 @@ body {
 }
 
 .form-background {
-  background-color: #FFFFFF;
+  background-color: #EEEEEE;
 }
 
 .form-group {
@@ -52,7 +57,7 @@ body {
 }
 
 .text-colour {
-  color: #000000;
+  color: #050505;
 }
 
 .form-group.success input {  /* The 'success' class is added by JavaScript */
@@ -73,29 +78,25 @@ body {
   visibility: visible;
 }
 
-.img-container {  /* Small-screen devices & others */
+.img-container {
   font-size: 1.1rem;
-  color: #0000FF;
+  color: #0000FF;  /* Just for testing only - not used in validation at all! */
+  display: inline-block;
   position: absolute;
   top: 38px;
-  left: 92%;  /* Small-screen - places icons on left of input tag */
+  left: 95%;
   visibility: hidden;  /* Hides icons by default, but still part of DOM */
 }
 
-@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
-  .img-container {
-    left: 95%;
-  }
-}
-
 .error-message {
+  font-weight: 400;
   color: #FF0000;
   display: none;  /* Hides error message by default & removes from DOM */
 }
 
 .button-colour {
+  width: 100%;  /* Creates 'block' button */
   color: #FFFFFF;
-  width: 100%;  /* Replaces Bootstrap 4 'btn-block' class */
   background-color: #000000;
 }
 

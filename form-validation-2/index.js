@@ -3,10 +3,11 @@
 const form = document.getElementById('form');
 const yourName = document.getElementById('clientName');
 const email = document.getElementById('clientEmail');
-const password_1 = document.getElementById('clientPassword1');
-const password_2 = document.getElementById('clientPassword2');
+const password_1 = document.getElementById('clientPassword_1');
+const password_2 = document.getElementById('clientPassword_2');
 
-form.addEventListener('submit', function(e) {  // The 'function' keyword ensures Internet Explorer compatability
+
+form.addEventListener('submit', (e) => {
   checkInputs(e);  // Function that checks form inputs
 });
 
@@ -25,8 +26,9 @@ function checkInputs(e) {
     setErrorFor(yourName, 'Name cannot be blank!');
   } else {
     // Add success class
-     setSuccessFor(yourName);
+    setSuccessFor(yourName);
   }
+
 
   // Email
   if (emailValue === '') {
@@ -40,6 +42,7 @@ function checkInputs(e) {
     // Add success class
     setSuccessFor(email);
   }
+
 
   // Password 1
   if (firstPasswordValue === '') {
@@ -56,6 +59,7 @@ function checkInputs(e) {
     // Add success class
     setSuccessFor(password_1);
   }
+
 
   // Password 2
   if (secondPasswordValue === '') {
@@ -74,7 +78,7 @@ function checkInputs(e) {
 
 function setErrorFor(input, message) {
   const formGroup = input.parentElement;  // Div with class '.form-group'
-  const smallTag = formGroup.querySelector('.error-message');  // Small tag with class '.error-message'
+  const smallTag = formGroup.querySelector('.error-message');
 
   // Add error message inside small tag
   smallTag.style.display = 'inline-block';  // Allows block-element behaviour but remains inline
@@ -88,6 +92,7 @@ function setErrorFor(input, message) {
   function removeMessage() {
     smallTag.style.display = 'none';  // Hides small tag & removes it from DOM
     smallTag.innerText = '';  // Removes error message text
+    formGroup.style.marginBottom = '16px';  // Restores bottom margin
   }
 
   function removeClass() {
@@ -95,7 +100,7 @@ function setErrorFor(input, message) {
   }
 }
 
-function  setSuccessFor(input) {
+function setSuccessFor(input) {
   const formGroup = input.parentElement;  // Div with class '.form-group'
 
   formGroup.className = 'form-group success';
@@ -103,6 +108,7 @@ function  setSuccessFor(input) {
 
   function removeClass() {
    formGroup.className = 'form-group';
+   formGroup.style.marginBottom = '16px';  // Restores bottom margin
  }
 }
 
