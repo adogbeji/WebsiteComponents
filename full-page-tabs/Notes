@@ -8,3 +8,4 @@ Important Points:-
 5) Each tab must be given a unique ID which is then passed into the function triggered on button click
 6) Each tab must also be given a background colour which is then passed into the function triggered on button click
 7) ONE tab must be open by default. Give its corresponding button a unique ID (id="defaultOpen"), so that JavaScript can open it
+8) To centre the tab buttons, put a surrounding div around them and apply left padding
