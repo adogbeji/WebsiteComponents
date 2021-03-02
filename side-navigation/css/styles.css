@@ -1,0 +1,85 @@
+* {  /* CSS Reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  /* border & Padding now included in Width & Height */
+}
+
+html {
+  min-height: 100%;  /* Ensures HTML page is at least as high as browser viewport */
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;  /* Ensures page body is at least as high as browser viewport */
+  font-family: Candara, 'Goudy Old style', Helvetica, sans-serif;
+  font-weight: 300;
+  color: #050505;
+}
+
+#main {
+  transition: margin-left 0.5s;
+}
+
+/* Side Navigation Menu */
+
+.sidenav {  /* Targeting small-screen devices & others */
+  transition: 0.5s;
+  height: 100%;  /* Makes it FULL height */
+  width: 0;  /* Changed with JavaScript */
+  position: fixed;  /* Keeps sidenav in fixed position */
+  top: 0;
+  left: 0;
+  z-index: 1;  /* Keeps sidenav on top */
+  padding-top: 15px;  /* Small-screen */
+  overflow-x: hidden;  /* This MUST be present! */
+  background-color: #111111;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+  .sidenav {
+    padding-top: 60px;
+  }
+}
+
+.account-user-name {
+  font-size: 1.4rem;
+  color: #FFFF00;
+  display: inline-block;  /* Allows margin to be applied */
+  padding-left: 32px;  /* SAME as left padding applied to <a></a> tags below */
+  padding-bottom: 20px;
+  background-color: #FF0000;
+}
+
+/* The navigation menu links */
+
+.sidenav a {  /* Targeting small-screen devices & others */
+  padding: 8px 8px 8px 32px;
+  font-size: 1.2rem;  /* Small-screen */
+  color: #EEEEEE;
+  line-height: 1.1;
+  text-decoration: none;  /* Removes underline */
+  display: block;  /* Lines up menu items vertically */
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+  .sidenav a {
+    font-size: 1.4rem;
+  }
+}
+
+.sidenav a:hover {
+  color: #FFFFC5;
+}
+
+.sidenav .sidebar-icon {
+  color: #EEEEEE;
+}
+
+.sidebar-icon .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 2rem;
+  margin-left: 50px;
+}
