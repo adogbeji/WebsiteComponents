@@ -1,0 +1,5 @@
+Important Points:-
+
+1) This contains the code for putting two download buttons side-by-side
+2) You can put text in a col-lg-6 Bootstrap Grid Column
+3) However a col-lg-8 column provides more space for larger text
