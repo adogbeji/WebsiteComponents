@@ -1,0 +1,123 @@
+* {  /* CSS Reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  /* Border & Padding now included in Width & Height */
+}
+
+html {
+  min-height: 100%;  /* Ensures HTML page is at least as high as browser viewport */
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;  /* Ensures page body is at least as high as browser viewport */
+  font-family: Cambria, 'Big Caslon', Palatino, serif;
+  font-weight: 300;
+  color: #000000;
+}
+
+.top-container {
+  width: 100vw;
+  height: 20vh;
+  background-color: #161D6F;
+}
+
+.middle-container {
+  width: 100vw;
+  background-color: #98DED9;
+}
+
+.text-img-container--1 {
+  width: 90%;
+  margin: auto;
+  text-align: center;  /* Centres icon + text */
+  padding: 80px 0 40px 0;
+  /* background-color: grey; */
+}
+
+.img-container-1 {
+  font-size: 4.3rem;
+  color: #BD00AA;
+  display: inline-block;
+}
+
+.text-container-1 {
+  padding-top: 10px;
+}
+
+.text-1 {
+  font-size: 1.8rem;
+}
+
+.text-2 {
+  font-size: 1.075rem;
+}
+
+.img-container-2 {
+  font-size: 0.7rem;
+  color: #BD00AA;
+  display: inline-block;
+}
+
+.reviews-section {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 80px;
+  /* background-color: grey; */
+}
+
+.card-1 {
+  border-radius: 0;
+  background-color: #111111;
+}
+
+.text-img-container--2 {  /* Must be used on ALL cards */
+  padding-top: 20px;  /* Creates space to vertically centre card contents */
+  text-align: center;
+}
+
+.img-container-3 {
+  font-size: 1rem;
+  color: #BD00AA;
+  display: inline-block
+}
+
+.text-container-2 {
+  padding-top: 20px;
+}
+
+.text-3 {
+  font-size: 1rem;
+  color: #EEEEEE;
+}
+
+.img-container-4 {
+  font-size: 0.65rem;
+  color: #BD00AA;
+  display: inline-block;
+}
+
+.text-container-3 {  /* Must be used on ALL cards */
+  padding-top: 35px;
+}
+
+.text-4 {
+  font-size: 1rem;
+  color: #EEEEEE;
+}
+
+.text-5 {
+  font-size: 1rem;
+  color: #EEEEEE;
+}
+
+.card-2 {
+  border-radius: 0;
+  background-color: #111111;
+}
+
+.card-3 {
+  border-radius: 0;
+  background-color: #111111;
+}
