@@ -1,0 +1,102 @@
+* {  /* CSS Reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  /* Border & Padding now included in Width & Height */
+}
+
+html {
+  min-height: 100%;  /* Ensures HTML page is at least as high as browser viewport */
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
+  font-family: Cambria, 'Big Caslon', Didot, serif;
+  font-weight: 300;
+  color: #000000;
+}
+
+.top-container {
+  width: 100vw;
+  background-color: #F4ABC4;
+}
+
+.navbar {
+  padding: 0.75% 5%;
+  background-color: #F4ABC4;
+}
+
+/* .navbar-brand {
+  background-color: grey;
+} */
+
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+  width: 90px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {  /* Targeting medium-screen devices */
+  .navbar-toggler {
+    transform: translateX(15px);
+  }
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .navbar-toggler {
+    transform: translateX(10px);
+  }
+}
+
+.hamburger-icon {
+  font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {  /* Targeting medium-screen devices */
+  .navbar-nav {
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .navbar-nav {
+    margin-top: 8px;
+    padding-left: 3px;
+  }
+}
+
+.nav-link {  /* Targeting small-screen devices & others */
+  font-size: 1rem;  /* Small-screen */
+  color: #111111;
+}
+
+.nav-link:hover {
+  color: #0E49B5;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+  .nav-link {
+    font-size: 1.08rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {   /* Targeting small-screen devices */
+  .nav-link {
+    line-height: 1.2;
+  }
+}
+
+.dropdown-menu {
+  background-image: linear-gradient(125deg, #EEEEEE, #F4ABC4);
+}
+
+.dropdown-item {
+  font-size: 1rem;
+  color: #111111;
+}
+
+.dropdown-item:hover {
+  color: #0E49B5;
+  background-color: #FFFFFF
+}
