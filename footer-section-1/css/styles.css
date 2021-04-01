@@ -1,0 +1,123 @@
+* {  /* CSS Reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  /* Border & Padding now included in Width & Height */
+}
+
+html {
+  min-height: 100%;  /* Ensures HTML page is at least as hgh as browser viewport */
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;  /* Ensures page body is at least as hgh as browser viewport */
+  font-family: Candara, 'Arial Narrow', Helvetica, sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+
+.top-container {
+  width: 100vw;
+  height: 20vh;
+  background-color: #FFABE1;
+}
+
+.middle-container {
+  width: 100vw;
+  background-color: #FFE6E6;
+}
+
+.video-container {
+  width: 40%;
+  margin: auto;
+  padding: 120px 0 130px 0;
+  /* background-color: #000000; */
+}
+
+/* FOOTER */
+
+.bottom-container {
+  width: 100vw;
+  background-color: #6155A6;
+}
+
+.social-icons a {
+  text-decoration: none;  /* Removes underline from icons */
+  transform: translateY(1.3px);
+}
+
+.social-icon--1 {
+  font-size: 0.85rem;
+  display: inline-block;
+  margin-right: 0.2px;
+}
+
+.social-icon--1 span {
+  color: #0000FF;
+}
+
+.social-icon--2 {
+  font-size: 0.85rem;
+  display: inline-block;
+  margin-right: 0.2px;
+}
+
+.social-icon--2 span {
+  color: #0E49B5;
+}
+
+.social-icon--3 {
+  font-size: 0.85rem;
+  display: inline-block;
+  margin-right: 0.2px;
+}
+
+.social-icon--3 span {
+  color: #BD00AA;
+}
+
+.social-icon--4 {
+  font-size: 0.85rem;
+  display: inline-block;
+  margin-right: 0.2px;
+}
+
+.social-icon--4 span {
+  color: #EEEEEE;
+}
+
+.line-divider {
+  width: 60%;
+  height: 0;
+  margin: 5px 0;  /* Centered with Bootstrap 'mx-auto' class */
+  border-top-style: dashed;
+  border-top-width: 2px;
+  border-top-color: #111111;
+}
+
+.footer-text a {
+  font-size: 1rem;
+  color: #FFFFFF;
+  text-decoration: none;  /* Removes underline from text */
+}
+
+.footer-text a:hover {
+  color: #BBBBBB;
+}
+
+a .affiliates {
+  margin-right: 1.5px;
+}
+
+a .sponsors {
+  margin-right: 1.5px;
+}
+
+a .donations {
+  margin-right: 1.5px;
+}
+
+a .contact {
+  margin-right: 1.5px;
+}
