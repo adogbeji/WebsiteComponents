@@ -1,0 +1,11 @@
+Important Points:
+
+NB: Unlike 'carousel-1', the indicators in this carousel are within the background image - looks nicer!
+
+1) This contains code for building a Carousel Slideshow with CSS & JavaScript
+2) Each carousel slide is hidden by default
+3) The slideshow sections + controls should be put inside a wrapper div
+4) Previous & next controls should be positioned relative to the parent wrapper div
+5) Caption text should also be positioned relative to the parent wrapper div
+6) You must apply the 'display: inline-block' rule to the indicators - or they won't show up!
+7) The indicators should be put in their own div that is positioned relative to the parent wrapper div
