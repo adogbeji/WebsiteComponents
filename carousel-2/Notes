@@ -9,3 +9,4 @@ NB: Unlike 'carousel-1', the indicators in this carousel are within the backgrou
 5) Caption text should also be positioned relative to the parent wrapper div
 6) You must apply the 'display: inline-block' rule to the indicators - or they won't show up!
 7) The indicators should be put in their own div that is positioned relative to the parent wrapper div
+8) NOTE: This carousel DOES NOT work with Bootstrap as the the framework CSS interferes with it!
