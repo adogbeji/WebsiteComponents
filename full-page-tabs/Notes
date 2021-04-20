@@ -6,6 +6,16 @@ Important Points:-
 3) All divs with class="tabcontent" are hidden by default (CSS & JavaScript)
 4) When the user clicks a button, it will open up the corresponding tab
 5) Each tab must be given a unique ID which is then passed into the function triggered on button click
-6) Each tab must also be given a background colour which is then passed into the function triggered on button click
-7) ONE tab must be open by default. Give its corresponding button a unique ID (id="defaultOpen"), so that JavaScript can open it
-8) To centre the tab buttons, put a surrounding div around them and apply left padding
+6) Each tab must also be given a background colour which is then passed into the function triggered on 
+   button click
+   
+7) ONE tab must be open by default. Give its corresponding button a unique ID (id="defaultOpen"), so that 
+   JavaScript can open it
+
+8) The buttons should come BEFORE the tabs in your HTML, or else the buttons will be at the bottom!
+9) The buttons should be given a width in %
+10) The tabs should also be given a width that allows the buttons fit exactly 
+   (eg. 75% for 3 buttons of width 25%)
+
+11) To position the tabs, wrap it in a parent div, give it a set width (eg. 60%, 90%), apply the 
+    margin: auto rule, and give it top and bottom padding
