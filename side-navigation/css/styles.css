@@ -153,3 +153,32 @@ body {
 .nav-link:hover {
   color: #FFFF00;
 }
+
+.sidenav-button-container {
+  width: 100vw;
+  background-color: #E4E4E4;  /* Should be the same as the rest of page */
+}
+
+.account-icon {
+  font-size: 1.2rem;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  transform: translateX(68px);
+}
+
+.account-page {
+  width: 100vw;
+  background-color: #E4E4E4;
+}
+
+.text-container {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  /* background-color: #FF0000; */
+}
+
+.text {
+  font-size: 1.4rem;
+}

@@ -3,6 +3,12 @@ important Points:-
 1) This contains the code to build a Side Navigation Bar using CSS & JavaScript
 2) All Page content should be kept in a wrapper div with a unique ID (eg. id="main")
 3) Create a unique header partial for each web page that has a Side Navigation Bar
-4) COMMENT OUT the navigation bar in the header partial - except scroll button- so it doesn't overlap the Side Navigation Bar
+4) COMMENT OUT the navigation bar in the header partial - except scroll button- so it doesn't overlap 
+   the Side Navigation Bar
+
 5) Now COPY the navigation bar you once had in the header partial and put it inside the wrapper div
 6) Displaying a greeting message isn't required - it's totally optional!
+7) Button for opening the sidebar should be in a container that has the SAME background colour as the
+   rest of the page
+
+8) Main contents should be kept in a div directly beneath the opening button
