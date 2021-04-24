@@ -48,7 +48,7 @@ body {
   display: inline-block;  /* Allows margin to be applied */
   padding-left: 32px;  /* SAME as left padding applied to <a></a> tags below */
   padding-bottom: 20px;
-  background-color: #FF0000;
+  /* background-color: #FF0000; */
 }
 
 /* The navigation menu links */
@@ -76,7 +76,7 @@ body {
   color: #EEEEEE;
 }
 
-.sidebar-icon .closebtn {
+.sidenav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
