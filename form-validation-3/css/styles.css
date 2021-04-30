@@ -1,0 +1,41 @@
+* {  /* CSS Reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* Border & Padding now included in Width & Height */
+}
+
+html {
+    min-height: 100%;  /* Ensures HTML page is at least as high as browser viewport */
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    min-height: 100vh;  /* Ensures page body is at least as high as browser viewport */
+    font-family: Candara, 'Arial Narrow', Futura, sans-serif;
+    font-weight: 300;
+    color: #050505;
+}
+
+.top-container {
+    width: 100vw;
+    height: 20vh;
+    background-color: #325288;
+}
+
+.middle-container {
+    width: 100vw;
+    background-color: #F4EEE8;
+}
+
+.text-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 135px;
+    text-align: center;
+    /* background-color: #FF0000; */
+}
+
+.text {
+    font-size: 2.3rem;
+}

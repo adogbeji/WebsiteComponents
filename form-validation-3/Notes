@@ -1,0 +1,16 @@
+Important Points:-
+
+NB: Icons are from Font Awesome
+
+1) Give the Form a unique ID to target it with JavaScript
+2) Each Input should have the following tags: label, input, 2X i &  2X small
+3) Check icon is shown when input is successful
+4) Exclamation icon is shown when there's an error
+5) <small></small> tag will display error message to user
+6) Error message will be hidden by default (display: none) and only displayed upon error
+7) Icons are hidden by default and only shown upon success/error validation
+8) Use JavaScript to dynamically add one of two custom classes depending on whether it's success or failure
+9) Make corresponding icon visible upon success or failure
+10) Form submission is prevented if validation fails!
+10) It's best for icon colour to be the SAME as input tag border colour
+11) Create a custom function to check if email is valid - uses REGEX?
