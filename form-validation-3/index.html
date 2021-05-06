@@ -26,6 +26,57 @@
             <div class="text-container">
                 <h3 class="text">Fill out the form below!</h3>
             </div>
+            <div class="form-container">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <div class="card form-background">
+                      <div class="card-body">
+                        <form id="form" action="/account/register" method="POST">
+                          <div class="mb-3 form-group">
+                            <label for="clientName" class="form-label"><span class="text-colour fw-bold">Name:</span></label>
+                            <input type="text" name="name" class="form-control" id="clientName" autocomplete="off"/>
+                            <span class="img-container">
+                              <i class="fas fa-check-circle"></i>
+                            </span>
+                            <span class="img-container">
+                              <i class="fas fa-exclamation-circle"></i>
+                            </span>
+                            <small class="error-message">Error Message</small>
+                          </div>
+                          <div class="mb-3 form-group">
+                            <label for="clientEmail" class="form-label"><span class="text-colour fw-bold">Email:</span></label>
+                            <input type="email" name="email" class="form-control" id="clientEmail" autocomplete="off"/>
+                            <span class="img-container">
+                              <i class="fas fa-check-circle"></i>
+                            </span>
+                            <span class="img-container">
+                              <i class="fas fa-exclamation-circle"></i>
+                            </span>
+                            <small class="error-message">Error Message</small>
+                          </div>
+                          <div class="mb-3 form-group">
+                            <label for="clientName" class="form-label"><span class="text-colour fw-bold">Password:</span></label>
+                            <input type="password" name="password" class="form-control" id="clientName"/>
+                            <span class="img-container">
+                              <i class="fas fa-check-circle"></i>
+                            </span>
+                            <span class="img-container">
+                              <i class="fas fa-exclamation-circle"></i>
+                            </span>
+                            <small class="error-message">Error Message</small>
+                          </div>
+                             <button type="submit" class="btn btn-primary">
+                               Submit
+                             </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
     </section>
 
