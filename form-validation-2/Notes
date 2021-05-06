@@ -14,5 +14,5 @@ NB: Icons are from Font Awesome
 10) Form submission is prevented if validation fails!
 10) It's best for icon colour to be the SAME as input tag border colour
 11) Create a custom function to check if email is valid - uses REGEX?
-12) Use this instead of Form Validation 2, as the JavaScript code restores the bottom margin after
+12) Use this instead of Form Validation 1, as the JavaScript code restores the bottom margin after
     message is removed!
