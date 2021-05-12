@@ -86,3 +86,18 @@ body {
     left: 95%;
     visibility: hidden;  /* Hides icons by default, but still part of DOM */
 }
+
+.button-container {
+    width: 100%;
+    background-color: #00FF00;
+}
+
+.button-container .button-colour {
+    width: 100%;
+    color: #EEEEEE;
+    background-color: #050505;
+}
+
+.button-container .button-colour:hover {
+    color: #FFFF00;
+}
