@@ -60,3 +60,46 @@ function checkInputs(e) {
     setSuccessFor(password);
   }
 }
+
+
+function setErrorFor(input, message) {
+  const formGroup = input.parentElement;  // Div with class '.form-group'
+  const smallTag = formGroup.querySelector('.error-message');
+
+  // Add error message inside small tag
+  smallTag.style.display = 'inline-block';  // Allows block-element behaviour but remains inline
+  smallTag.innerText = message;
+  setTimeout(removeMessage, 2500);  // Removes error message after 2.5s
+
+  // Add error class
+  formGroup.className = 'form-group error';
+  setTimeout(removeClass, 2500);  // Removes error class after 2.5s
+
+  function removeMessage() {
+    smallTag.style.display = 'none';  // Hides small tag & removes it from DOM
+    smallTag.innerText = '';  // Removes error message text
+    formGroup.style.marginBottom = '16px';  // Restores bottom margin
+  }
+
+  function removeClass() {
+    formGroup.className = 'form-group';
+  }
+}
+
+function setSuccessFor(input) {
+  const formGroup = input.parentElement;  // Div with class '.form-group'
+
+  formGroup.className = 'form-group success';
+  setTimeout(removeClass, 2500);  // Removes success class after 2.5s
+
+  function removeClass() {
+   formGroup.className = 'form-group';
+   formGroup.style.marginBottom = '16px';  // Restores bottom margin
+ }
+}
+
+
+// Special Function to validate email - returns true or false
+function validateEmail(email) {
+  return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+}
