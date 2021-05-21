@@ -6,5 +6,7 @@ important Points:-
 4) In the first technique, we use the 'function' keyword rather than ES6 arrow functions (=>) to ensure Internet Explorer compatability
 5) The second technique won't work with Internet Explorer! It's mainly limited to browsers like Chrome & FireFox
 6) The third technique gives the BEST results in terms of cross-browser compatability & animation!!
+7) In the third technique, we target BOTH HTML & body for browser compatibility. For some browsers, you 
+   must target the body, and for others, you should target HTML. This strategy covers everything!
 
 NB: Using jQuery (Technique #3) ensures maximum cross-browser compatability and is the recommended strategy!
