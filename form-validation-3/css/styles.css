@@ -87,6 +87,12 @@ body {
     visibility: hidden;  /* Hides icons by default, but still part of DOM */
 }
 
+.error-message {
+    font-weight: 400;
+    color: #FF0000;
+    display: none;  /* Hides error message by default & removes from DOM */
+}
+
 .button-container {
     width: 100%;
     background-color: #00FF00;
