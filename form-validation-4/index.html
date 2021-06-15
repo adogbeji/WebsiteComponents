@@ -28,23 +28,43 @@
             </div>
             <div class="form-container">
                 <div class="container">
-                    <div class="row">
+                    <div class="row justify-content-center">
                       <div class="col-sm-8">
                         <div class="card form-background">
                             <div class="card-body">
-                                <form>
-                                    <div class="mb-3">
-                                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-                                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                <form action="/account/register" method="POST">
+                                    <div class="mb-3 form-group">
+                                      <label for="clientEmail" class="form-label"><span class="text-colour fw-bold">Email:</span></label>
+                                      <input type="email" name="email" class="form-control" id="clientEmail" autocomplete="off"/>
+                                      <span class="img-container">
+                                        <i class="fas fa-check-circle"></i>
+                                      </span>
+                                      <span class="img-container">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                      </span>
+                                      <small class="error-message">Error Message</small>
                                     </div>
-                                    <div class="mb-3">
-                                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                                      <input type="password" class="form-control" id="exampleInputPassword1"/>
+                                    <div class="mb-3 form-group">
+                                      <label for="clientPassword_1" class="form-label"><span class="text-colour fw-bold">Password:</span></label>
+                                      <input type="password" name="password_1" class="form-control" id="clientPassword_1"/>
+                                      <span class="img-container">
+                                        <i class="fas fa-check-circle"></i>
+                                      </span>
+                                      <span class="img-container">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                      </span>
+                                      <small class="error-message">Error Message</small>
                                     </div>
-                                    <div class="mb-3 form-check">
-                                      <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-                                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    <div class="mb-3 form-group">
+                                      <label for="clientPassword_2" class="form-label"><span class="text-colour fw-bold">Confirm Password:</span></label>
+                                      <input type="password" name="password_2" class="form-control" id="clientPassword_2"/>
+                                      <span class="img-container">
+                                        <i class="fas fa-check-circle"></i>
+                                      </span>
+                                      <span class="img-container">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                      </span>
+                                      <small class="error-message">Error Message</small>
                                     </div>
                                     <button type="submit" class="btn btn-primary">Submit</button>
                                   </form>
