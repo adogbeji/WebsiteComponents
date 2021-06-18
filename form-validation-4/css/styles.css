@@ -46,3 +46,43 @@ body {
     padding-bottom: 80px;
     /* background-color: #000000; */
 }
+
+.form-background {
+    background-color: #EEEEEE;
+}
+
+.form-group {
+    position: relative;
+}
+
+.text-colour {
+    color: #000000;
+}
+
+.form-group.success input {  /* The 'success' class is added by JavaScript */
+    border: 1px solid #00FF00;
+}
+
+.form-group.success .img-container .fa-check-circle {  /* Make icon visible on success */
+    color: #00FF00;
+    visibility: visible;
+}
+
+.form-group.error input {  /* The 'error' class is added by JavaScript */
+    border: 1px solid #FF0000;
+}
+
+.form-group.error .img-container .fa-exclamation-circle {  /* Make icon visible on error */
+    color: #FF0000;
+    visibility: visible;
+}
+
+.img-container {
+    font-size: 1.1rem;
+    color: #0000FF;  /* Just for testing only - not used in validation at all! */
+    display: inline-block;
+    position: absolute;
+    top: 38px;
+    left: 95%;
+    visibility: hidden;  /* Hides icons by default, but still part of DOM */
+}
