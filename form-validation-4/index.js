@@ -30,4 +30,21 @@ function checkInputs(e) {
       // Add success class
       setSuccessFor(email);
     }
+
+
+    // Password 1
+    if (firstPasswordValue === '') {
+      e.preventDefault();  // Prevents Form Submission
+      // Show error message + add error class
+      setErrorFor(password_1, 'Password cannot be blank!');
+    } else if (password_1.value.length < 6) {
+      e.preventDefault();  // Prevents Form Submission
+      setErrorFor(password_1, 'Password must be at least 6 characters!');
+    } else if (password_1.value.length >= 20) {
+      e.preventDefault();  // Prevents Form Submission
+      setErrorFor(password_1, 'Password must be less than 20 characters!');
+    } else {
+      // Add success class
+      setSuccessFor(password_1);
+    }
 }
