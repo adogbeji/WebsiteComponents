@@ -47,4 +47,18 @@ function checkInputs(e) {
       // Add success class
       setSuccessFor(password_1);
     }
+
+
+    // Password 2
+    if (secondPasswordValue === '') {
+      e.preventDefault();  // Prevents Form Submission
+      // Show error message + add error class
+      setErrorFor(password_2, 'Please confirm password!');
+    } else if (firstPasswordValue !== secondPasswordValue) {
+      e.preventDefault();  // Prevents Form Submission
+      setErrorFor(password_2, 'Passwords do not match!');
+    } else {
+      // Add success class
+      setSuccessFor(password_2);
+    }
 }
