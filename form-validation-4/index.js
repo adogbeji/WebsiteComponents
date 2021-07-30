@@ -87,3 +87,15 @@ function setErrorFor(input, message) {
     formGroup.className = 'form-group';
   }
 }
+
+function setSuccessFor(input) {
+  const formGroup = input.parentElement;  // Div with class '.form-group'
+
+  formGroup.className = 'form-group success';
+  setTimeout(removeClass, 2500);  // Removes success class after 2.5s
+
+  function removeClass() {
+   formGroup.className = 'form-group';
+   formGroup.style.marginBottom = '16px';  // Restores bottom margin
+ }
+}
