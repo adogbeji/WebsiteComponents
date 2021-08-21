@@ -1,0 +1,14 @@
+Important Points:
+
+NB: This is an improvement on 'carousel-2', the image height is fixed - use this instead!
+
+1) This contains code for building a Carousel Slideshow with CSS & JavaScript
+2) Each carousel slide is hidden by default
+3) The slideshow sections + controls should be put inside a wrapper div
+4) Give the wrapper div a fixed with (eg. 700px)
+5) The image should be given the same width as the wrapper div + fixed height
+4) Previous & next controls should be positioned relative to the parent wrapper div
+5) Caption text should also be positioned relative to the parent wrapper div
+6) You must apply the 'display: inline-block' rule to the indicators - or they won't show up!
+7) The indicators should be put in their own div that is positioned relative to the parent wrapper div
+8) NOTE: This carousel DOES NOT work with Bootstrap as the the framework CSS interferes with it!
